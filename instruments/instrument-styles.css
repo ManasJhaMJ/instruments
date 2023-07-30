@@ -11,6 +11,8 @@ html {
 
 body{
     overflow-x: hidden;
+    background-color: #141129;
+    color: white;
 }
 
 .main {
@@ -27,7 +29,7 @@ body{
 .navi{
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navbar-custom {
@@ -49,19 +51,102 @@ footer {
     padding-top: 20px;
 }
 
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+  
 
 .play {
-    height: auto;
     width: 100%;
+    height: auto;
     margin-top: 5%;
     text-align: center;
-    padding: 5% 0% 5% 0%;
+    padding: 80px 260px;
 }
 
 .responsive-img {
-    width: 70%;
+    width: 100%;
     height: auto;
-    padding-top: 5%;
+    padding: 10% 10% 6% 10%;
+    z-index: 1;
+}
+
+.eclipse {
+    position: absolute;
+    right: 0%;
+    border-top-right-radius: 120px;
+    opacity: 0.7;
+    height: auto;
+}
+
+.eclipse2 {
+    position: absolute;
+    left: 0%;
+    bottom: 80px;
+    height: 80%;
+    width: 80%;
+    border-top-left-radius: 70px;
+    border-bottom-left-radius: 70px;
+    opacity: 0.6;
+}
+
+.glass {
+    border-radius: 120px;
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.02) 100%);
+    backdrop-filter: blur(100%);
+}
+
+.button {
+    background-color: #72AC51;
+    color: white;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.X {
+    right: 51.5%;
+    top: 58%;
+}
+
+.Y {
+    right: 72%;
+    top: 15%;
+}
+
+.U {
+    right: 20%;
+    top: 22%;
+}
+
+.R {
+    right: 88%;
+    top: 31%;
+}
+
+.E {
+    right: 88%;
+    top: 22%;
+}
+
+.C {
+    right: 88%;
+    top: 80%;
+}
+
+.S {
+    right: 80%;
+    top: 42%;
+}
+
+.D {
+    right: 72%;
+    top: 42%;
+}
+
+.G {
+    right: 56%;
+    top: 35%;
 }
 
 
@@ -75,17 +160,13 @@ footer {
         width: 200px;
     }
 
-    #instruments {
-        height: 120%;
-    }
-
     .logo {
         height: 70px !important;
         width: 70px !important;
     }
 
     .responsive-img {
-        width: 50%;
+        width: 70%;
         height: auto;
         padding-top: 10%;
     }
@@ -93,7 +174,7 @@ footer {
 /* Large laptop screens */
 @media (min-width : 1439px){
     .responsive-img {
-        width: 70%;
+        width: 100%;
         height: auto;
         padding-top: 5%;
     }
@@ -114,9 +195,13 @@ footer {
     }
 
     .responsive-img {
-        width: 100%;
+        width: 90%;
         height: auto;
-        padding-top: 10%;
+        padding-top: 5%;
+    }
+
+    .eclipse, .eclipse2 {
+        visibility: hidden;
     }
 }
 
@@ -147,4 +232,46 @@ footer {
     .play {
         padding: 20% 0% 5% 0%;
     }
+
+    .Y {
+        right: 68%;
+        top: 16%;
+    }
+
+    .U {
+        right: 18%;
+        top: 22%;
+    }
+
+    .X {
+        right: 50%;
+        top: 55%;
+    }
+
+    .R {
+        right: 86%;
+        top: 35%;
+    }
+
+    .E {
+        right: 86%;
+        top: 20%;
+    }
+
+    .C {
+        right: 85%;
+        top: 80%;
+    }
+
+    .S {
+        right: 78.5%;
+        top: 42%;
+    }
+
+    .D {
+        right: 70%;
+        top: 42%;
+    }
+    
+    
 }
