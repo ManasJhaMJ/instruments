@@ -1,0 +1,150 @@
+* {
+    font-family: 'Biryani';
+}
+
+html {
+    margin: 0px;
+    scroll-behavior: smooth;
+    /* width:100%; */
+    overflow-x:hidden;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.main {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.navbar-brand, .nav-link, .collapse, .container-fluid, .bg-body-tertiary {
+    background-color: #AE3A5E !important; 
+    color: white;
+}
+
+.navi{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-custom {
+    display: flex;
+    height: 70px;
+    padding: 16px 80px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+footer {
+    background-color: #AE3A5E;
+    height: 13%;
+    text-align: center;
+}
+
+.footer {
+    color: white;
+    padding-top: 20px;
+}
+
+
+.play {
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+}
+
+.responsive-img {
+    width: 70%;
+    height: auto;
+    padding-top: 5%;
+}
+
+
+/* small and medium laptop screens */
+@media (min-width : 991px) and (max-width : 1430px) {
+    .instrument, .col1 {
+        height:200px;
+        width: 200px;
+    }
+    .inst-text {
+        width: 200px;
+    }
+
+    #instruments {
+        height: 120%;
+    }
+
+    .logo {
+        height: 70px !important;
+        width: 70px !important;
+    }
+
+    .responsive-img {
+        width: 50%;
+        height: auto;
+        padding-top: 10%;
+    }
+}
+/* Large laptop screens */
+@media (min-width : 1439px){
+    .responsive-img {
+        width: 70%;
+        height: auto;
+        padding-top: 5%;
+    }
+
+    .play {
+        margin-top: 5%;
+    }
+}
+/* screens below tablets */
+@media (max-width : 767px){
+    .logo {
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    .play {
+        padding: 15% 0% 5% 0%;
+    }
+
+    .responsive-img {
+        width: 100%;
+        height: auto;
+        padding-top: 10%;
+    }
+}
+
+/* For mobile phones */
+@media (max-width : 430px){
+    .navbar-brand {
+        align-items: right;
+        font-size: 20px;
+    }
+
+    .logo {
+        height: 40px !important;
+        width: 40px !important;
+    }
+
+    .container-fluid {
+        width: 800px;
+    }
+
+    .navbar-toggler , .navbar-toggler-icon {
+        padding: 3px !important;
+    }
+
+    .navbar-custom {
+        padding: 5px 5px;
+    }
+
+    .play {
+        padding: 20% 0% 5% 0%;
+    }
+}
