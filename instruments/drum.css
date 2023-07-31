@@ -1,18 +1,20 @@
 * {
-  font-family: "Biryani";
+  font-family: "Outfit", sans-serif;
 }
 
 html {
   margin: 0px;
   scroll-behavior: smooth;
-  /* width:100%; */
   overflow-x: hidden;
 }
 
 body {
   overflow-x: hidden;
   background-color: #141129;
-  color: white;
+  /* color: #94cfed; */
+  color: aqua;
+  box-shadow: -931px 72px 117px 0px #2d9edd80 inset;
+  box-shadow: 0px 4px 62px 0px #2d9edd80;
 }
 
 .main {
@@ -20,11 +22,16 @@ body {
   margin: 0px;
 }
 
+.nav-link:hover {
+  color: aqua;
+}
+
 .navbar-brand,
 .nav-link,
 .collapse,
 .container-fluid,
 .bg-body-tertiary {
+  /* background-color: #141129 !important; */
   background-color: #ae3a5e !important;
   color: white;
 }
@@ -33,6 +40,7 @@ body {
   position: fixed;
   width: 100%;
   z-index: 3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .navbar-custom {
@@ -65,6 +73,11 @@ footer {
   margin-top: 5%;
   text-align: center;
   padding: 80px 260px;
+}
+
+.play h1 {
+  font-size: 60px;
+  padding: 30px;
 }
 
 .responsive-img {
@@ -100,6 +113,7 @@ footer {
     rgba(255, 255, 255, 0.02) 100%
   );
   backdrop-filter: blur(100%);
+  border-radius: 124px;
 }
 
 .button {
@@ -108,61 +122,72 @@ footer {
   position: absolute;
   border-radius: 50%;
   z-index: 1;
+  font-size: 23px;
 }
 
-.X {
+.x {
   right: 51.5%;
   top: 52%;
 }
 
-.Y {
+.y {
   right: 68%;
   top: 15%;
 }
 
-.U {
+.u {
   right: 25%;
   top: 22%;
 }
 
-.R {
+.r {
   right: 80%;
   top: 30%;
 }
 
-.E {
+.e {
   right: 80%;
   top: 20%;
 }
 
-.C {
+.c {
   right: 80%;
   top: 72%;
 }
 
-.S {
+.s {
   right: 74.5%;
   top: 38%;
 }
 
-.D {
+.d {
   right: 68%;
   top: 38%;
 }
 
-.G {
+.g {
   right: 57.5%;
   top: 32%;
 }
 
-.H {
+.h {
   right: 43%;
   top: 32%;
 }
 
-.J {
+.j {
   right: 29%;
   top: 52%;
+}
+
+.info {
+  text-align: left;
+  padding: 5% 15% 5% 15%;
+  font-size: 20px;
+}
+
+.info li {
+  padding: 1%;
 }
 
 /* small and medium laptop screens */
@@ -182,9 +207,13 @@ footer {
   }
 
   .responsive-img {
-    width: 70%;
+    width: 100%;
     height: auto;
     padding-top: 10%;
+  }
+
+  .play {
+    padding: 20px 30px;
   }
 }
 /* Large laptop screens */
@@ -200,7 +229,7 @@ footer {
   }
 }
 /* screens below tablets */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .logo {
     height: 40px !important;
     width: 40px !important;
@@ -211,7 +240,7 @@ footer {
   }
 
   .responsive-img {
-    width: 90%;
+    width: 100%;
     height: auto;
     padding-top: 5%;
   }
@@ -252,42 +281,61 @@ footer {
   }
 
   .Y {
-    right: 68%;
-    top: 16%;
+    right: 64%;
+    top: 14%;
   }
 
   .U {
-    right: 18%;
-    top: 22%;
+    right: 28%;
+    top: 20%;
   }
 
   .X {
     right: 50%;
-    top: 55%;
+    top: 49%;
   }
 
   .R {
-    right: 86%;
-    top: 35%;
+    right: 76%;
+    top: 30%;
   }
 
   .E {
-    right: 86%;
-    top: 20%;
+    right: 76%;
+    top: 17%;
   }
 
   .C {
-    right: 85%;
-    top: 80%;
+    right: 76%;
+    top: 68%;
   }
 
   .S {
-    right: 78.5%;
-    top: 42%;
+    right: 70%;
+    top: 36%;
   }
 
   .D {
-    right: 70%;
-    top: 42%;
+    right: 63%;
+    top: 36%;
+  }
+
+  .g {
+    right: 55%;
+    top: 32%;
+  }
+
+  .h {
+    right: 43%;
+    top: 32%;
+  }
+
+  .j {
+    right: 31%;
+    top: 52%;
+  }
+
+  .button {
+    font-size: 9px;
   }
 }
