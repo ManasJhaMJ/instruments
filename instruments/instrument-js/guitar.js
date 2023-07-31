@@ -28,53 +28,53 @@ function makeSound(key) {
   switch (key) {
 
     case "e":
-      var crash = new Audio("../sounds/guitar/1st-string.mp3");
-      crash.play();
+      var first = new Audio("../sounds/guitar/1st-string.mp3");
+      first.play();
       break;
 
     case "b":
-      var ride = new Audio("../sounds/guitar/2nd-string.mp3");
-      ride.play();
+      var second = new Audio("../sounds/guitar/2nd-string.mp3");
+      second.play();
       break;
 
     case "g":
-      var bass = new Audio('../sounds/guitar/3rd-string.mp3');
-      bass.play();
+      var third = new Audio('../sounds/guitar/3rd-string.mp3');
+      third.play();
       break;
 
     case "d":
-      var hihatopen = new Audio('../sounds/guitar/4th-string.mp3');
-      hihatopen.play();
+      var fourth = new Audio('../sounds/guitar/4th-string.mp3');
+      fourth.play();
       break;
 
     case "a":
-      var hihat = new Audio('../sounds/guitar/5th-string.mp3');
-      hihat.play();
+      var fifth = new Audio('../sounds/guitar/5th-string.mp3');
+      fifth.play();
       break;
 
     case "s":
-      var hihatfoot = new Audio('../sounds/guitar/6th-string.mp3');
-      hihatfoot.play();
+      var sixth = new Audio('../sounds/guitar/6th-string.mp3');
+      sixth.play();
       break;
 
     case "1":
-      var tom1 = new Audio('../sounds/guitar/c chord.mp3');
-      tom1.play();
+      var cchord = new Audio('../sounds/guitar/c chord.mp3');
+      cchord.play();
       break;
 
     case "2":
-      var tom2 = new Audio('../sounds/guitar/d chord.mp3');
-      tom2.play();
+      var dchord = new Audio('../sounds/guitar/d chord.mp3');
+      dchord.play();
       break;
 
     case "3":
-      var floortom = new Audio('../sounds/guitar/dm chord.mp3');
-      floortom.play();
+      var dmchord = new Audio('../sounds/guitar/dm chord.mp3');
+      dmchord.play();
       break;
 
     case "4":
-      var snaredrum = new Audio('../sounds/guitar/e chord.mp3');
-      snaredrum.play();
+      var echord = new Audio('../sounds/guitar/e chord.mp3');
+      echord.play();
       break;
 
     default: console.log(key);
