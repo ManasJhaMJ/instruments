@@ -112,7 +112,101 @@ function makeSound(key) {
       _30.play();
       break;
 
+    case "d":
+      var _32 = new Audio('../sounds/piano/32.mp3');
+      _32.play();
+      break;
+
+    case "f":
+      var _33 = new Audio('../sounds/piano/33.mp3');
+      _33.play();
+      break;
+
+    case "g":
+      var _35 = new Audio('../sounds/piano/35.mp3');
+      _35.play();
+      break;
+
+    case "h":
+      var _37 = new Audio('../sounds/piano/37.mp3');
+      _37.play();
+      break;
       
+    case "j":
+      var _39 = new Audio('../sounds/piano/39.mp3');
+      _39.play();
+      break;
+
+    case "k":
+      var _40 = new Audio('../sounds/piano/40.mp3');
+      _40.play();
+      break;
+
+    case "l":
+      var _42 = new Audio('../sounds/piano/42.mp3');
+      _42.play();
+      break;
+
+    case ";":
+      var _44 = new Audio('../sounds/piano/44.mp3');
+      _44.play();
+      break;
+
+    case "'":
+      var _45 = new Audio('../sounds/piano/45.mp3');
+      _45.play();
+      break;
+      
+    case "z":
+      var _47 = new Audio('../sounds/piano/47.mp3');
+      _47.play();
+      break;
+
+    case "x":
+      var _49 = new Audio('../sounds/piano/49.mp3');
+      _49.play();
+      break;
+
+    case "c":
+      var _51 = new Audio('../sounds/piano/51.mp3');
+      _51.play();
+      break;
+
+    case "v":
+      var _52 = new Audio('../sounds/piano/52.mp3');
+      _52.play();
+      break;
+
+    case "b":
+      var _54 = new Audio('../sounds/piano/54.mp3');
+      _54.play();
+      break;
+
+    case "n":
+      var _56 = new Audio('../sounds/piano/56.mp3');
+      _56.play();
+      break;
+
+    case "m":
+      var _57 = new Audio('../sounds/piano/57.mp3');
+      _57.play();
+      break;
+
+    case ",":
+      var _59 = new Audio('../sounds/piano/59.mp3');
+      _59.play();
+      break;
+
+    case ".":
+      var _61 = new Audio('../sounds/piano/61.mp3');
+      _61.play();
+      break;
+
+    case "/":
+      var _63 = new Audio('../sounds/piano/63.mp3');
+      _63.play();
+      break;
+
     default: console.log(key);
 
   }
