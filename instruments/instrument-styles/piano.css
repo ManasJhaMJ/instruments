@@ -314,6 +314,34 @@ footer {
   padding: 1%;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ae3a5e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+}
+
+.dropdown-content a:hover {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* small and medium laptop screens */
 @media (min-width: 991px) and (max-width: 1430px) {
   .instrument,

@@ -188,6 +188,34 @@ footer {
   padding: 1%;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ae3a5e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+}
+
+.dropdown-content a:hover {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
 /* small and medium laptop screens */
 @media (min-width: 991px) and (max-width: 1430px) {
   .instrument,
@@ -276,61 +304,6 @@ footer {
 
   .play {
     padding: 20% 0% 5% 0%;
-  }
-
-  .Y {
-    right: 64%;
-    top: 14%;
-  }
-
-  .U {
-    right: 28%;
-    top: 20%;
-  }
-
-  .X {
-    right: 50%;
-    top: 49%;
-  }
-
-  .R {
-    right: 76%;
-    top: 30%;
-  }
-
-  .E {
-    right: 76%;
-    top: 17%;
-  }
-
-  .C {
-    right: 76%;
-    top: 68%;
-  }
-
-  .S {
-    right: 70%;
-    top: 36%;
-  }
-
-  .D {
-    right: 63%;
-    top: 36%;
-  }
-
-  .g {
-    right: 55%;
-    top: 32%;
-  }
-
-  .h {
-    right: 43%;
-    top: 32%;
-  }
-
-  .j {
-    right: 31%;
-    top: 52%;
   }
 
   .button {
