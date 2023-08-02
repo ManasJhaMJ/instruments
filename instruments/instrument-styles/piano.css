@@ -432,62 +432,187 @@ footer {
     padding: 20% 0% 5% 0%;
   }
 
-  .Y {
-    right: 64%;
-    top: 14%;
+  .button {
+    font-size: 5px;
   }
 
-  .U {
-    right: 28%;
-    top: 20%;
+  .one {
+    right: 84.2%;
+    top: 29%;
   }
 
-  .X {
-    right: 50%;
-    top: 49%;
+  .two {
+    right: 80%;
+    top: 29%;
   }
 
-  .R {
-    right: 76%;
-    top: 30%;
+  .three {
+    right: 73%;
+    top: 29%;
   }
 
-  .E {
-    right: 76%;
-    top: 17%;
+  .four {
+    right: 68.5%;
+    top: 29%;
   }
 
-  .C {
-    right: 76%;
-    top: 68%;
+  .five {
+    right: 64.8%;
+    top: 29%;
   }
 
-  .S {
-    right: 70%;
-    top: 36%;
+  .six {
+    right: 58%;
+    top: 29%;
   }
 
-  .D {
-    right: 63%;
-    top: 36%;
+  .seven {
+    right: 54.3%;
+    top: 29%;
+  }
+
+  .eight {
+    right: 46.7%;
+    top: 29%;
+  }
+
+  .nine {
+    right: 42.9%;
+    top: 29%;
+  }
+
+  .zero {
+    right: 39%;
+    top: 29%;
+  }
+
+  .q {
+    right: 31.5%;
+    top: 29%;
+  }
+
+  .w {
+    right: 27.5%;
+    top: 29%;
+  }
+
+  .e {
+    right: 20.2%;
+    top: 29%;
+  }
+
+  .r {
+    right: 16.4%;
+    top: 29%;
+  }
+
+  .t {
+    right: 12.7%;
+    top: 29%;
+  }
+
+  .a {
+    right: 87%;
+    top: 60%;
+  }
+
+  .s {
+    right: 83%;
+    top: 60%;
+  }
+
+  .d {
+    right: 79.2%;
+    top: 60%;
+  }
+
+  .f {
+    right: 75.6%;
+    top: 60%;
   }
 
   .g {
-    right: 55%;
-    top: 32%;
+    right: 71.6%;
+    top: 60%;
   }
 
   .h {
-    right: 43%;
-    top: 32%;
+    right: 67.8%;
+    top: 60%;
   }
 
   .j {
-    right: 31%;
-    top: 52%;
+    right: 64.5%;
+    top: 60%;
   }
 
-  .button {
-    font-size: 9px;
+  .k {
+    right: 60.25%;
+    top: 60%;
+  }
+
+  .l {
+    right: 56.7%;
+    top: 60%;
+  }
+
+  .semi-colon {
+    right: 52.7%;
+    top: 60%;
+  }
+
+  .quotation {
+    right: 49%;
+    top: 60%;
+  }
+
+  .z {
+    right: 45%;
+    top: 60%;
+  }
+
+  .x {
+    right: 41%;
+    top: 60%;
+  }
+
+  .c {
+    right: 37.5%;
+    top: 60%;
+  }
+
+  .v {
+    right: 33.5%;
+    top: 60%;
+  }
+
+  .b {
+    right: 29.7%;
+    top: 60%;
+  }
+
+  .n {
+    right: 26%;
+    top: 60%;
+  }
+
+  .m {
+    right: 21.8%;
+    top: 60%;
+  }
+
+  .colon {
+    right: 18.8%;
+    top: 60%;
+  }
+
+  .stop {
+    right: 14.8%;
+    top: 60%;
+  }
+
+  .slash {
+    right: 10.8%;
+    top: 60%;
   }
 }
