@@ -1,0 +1,409 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  margin: 0px;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #141129;
+  /* color: #94cfed; */
+  color: aqua;
+  box-shadow: -931px 72px 117px 0px #2d9edd80 inset;
+  box-shadow: 0px 4px 62px 0px #2d9edd80;
+}
+
+.main {
+  padding: 0px;
+  margin: 0px;
+}
+
+.nav-link:hover {
+  color: aqua;
+}
+
+.navbar-brand,
+.nav-link,
+.collapse,
+.container-fluid,
+.bg-body-tertiary {
+  /* background-color: #141129 !important; */
+  background-color: #ae3a5e !important;
+  color: white;
+}
+
+.navi {
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.navbar-custom {
+  display: flex;
+  height: 60px;
+  padding: 16px 80px;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+footer {
+  background-color: #ae3a5e;
+  height: 13%;
+  text-align: center;
+}
+
+.footer {
+  color: white;
+  padding-top: 20px;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.play {
+  width: 100%;
+  height: auto;
+  margin-top: 5%;
+  text-align: center;
+  padding: 80px 260px;
+}
+
+.play h1 {
+  font-size: 55px;
+  padding: 30px;
+}
+
+.responsive-img {
+  width: 100%;
+  height: auto;
+  padding: 10% 10% 6% 10%;
+  z-index: 1;
+}
+
+.eclipse {
+  position: absolute;
+  right: 0%;
+  border-top-right-radius: 64px;
+  opacity: 0.6;
+  height: 80%;
+}
+
+.eclipse2 {
+  position: absolute;
+  left: 0%;
+  bottom: 80px;
+  height: 80%;
+  width: 80%;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  opacity: 0.6;
+}
+
+.glass {
+  background: linear-gradient(
+    136deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  backdrop-filter: blur(100%);
+  border-radius: 64px;
+}
+
+.button {
+  background-color: #72ac51;
+  color: white;
+  position: absolute;
+  border-radius: 50%;
+  z-index: 1;
+  font-size: 24px;
+}
+
+.q {
+  right: 82%;
+  top: 10%;
+}
+
+.w {
+  right: 76%;
+  top: 10%;
+}
+
+.e {
+  right: 70%;
+  top: 10%;
+}
+
+.r {
+  right: 64.3%;
+  top: 10%;
+}
+
+.t {
+  right: 59%;
+  top: 10%;
+}
+
+.y {
+  right: 53%;
+  top: 10%;
+}
+
+.u {
+  right: 47.3%;
+  top: 10%;
+}
+
+.i {
+  right: 42.8%;
+  top: 10%;
+}
+
+.a {
+  right: 38%;
+  top: 10%;
+}
+
+.s {
+  right: 33.3%;
+  top: 10%;
+}
+
+.d {
+  right: 29%;
+  top: 10%;
+}
+
+.f {
+  right: 24.8%;
+  top: 10%;
+}
+
+.g {
+  right: 20.6%;
+  top: 10%;
+}
+
+.h {
+  right: 16.7%;
+  top: 10%;
+}
+
+.j {
+  right: 13.5%;
+  top: 10%;
+}
+
+.info {
+  text-align: left;
+  padding: 5% 15% 5% 15%;
+  font-size: 20px;
+}
+
+.info li {
+  padding: 1%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-top: 8px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ae3a5e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+}
+
+.dropdown-content a:hover {
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* small and medium laptop screens */
+@media (min-width: 991px) and (max-width: 1430px) {
+  .instrument,
+  .col1 {
+    height: 200px;
+    width: 200px;
+  }
+  .inst-text {
+    width: 200px;
+  }
+
+  .logo {
+    height: 70px !important;
+    width: 70px !important;
+  }
+
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+  }
+
+  .play {
+    padding: 20px 30px;
+  }
+}
+/* Large laptop screens */
+@media (min-width: 1439px) {
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+  }
+
+  .play {
+    margin-top: 5%;
+  }
+}
+/* screens below tablets */
+@media (max-width: 768px) {
+  .logo {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .play {
+    padding: 15% 0% 5% 0%;
+  }
+
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+  }
+
+  .eclipse,
+  .eclipse2 {
+    visibility: hidden;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 430px) {
+  .navbar-brand {
+    align-items: right;
+    font-size: 20px;
+  }
+
+  .logo {
+    height: 40px !important;
+    width: 40px !important;
+  }
+
+  .container-fluid {
+    width: 800px;
+  }
+
+  .navbar-toggler,
+  .navbar-toggler-icon {
+    padding: 3px !important;
+  }
+
+  .navbar-custom {
+    padding: 5px 5px;
+  }
+
+  .play {
+    padding: 20% 0% 5% 0%;
+  }
+
+  .button {
+    font-size: 9px;
+  }
+
+  .q {
+    right: 81%;
+    top: 10%;
+  }
+
+  .w {
+    right: 74.7%;
+    top: 10%;
+  }
+
+  .e {
+    right: 69%;
+    top: 10%;
+  }
+
+  .r {
+    right: 63.3%;
+    top: 10%;
+  }
+
+  .t {
+    right: 58%;
+    top: 10%;
+  }
+
+  .y {
+    right: 52%;
+    top: 10%;
+  }
+
+  .u {
+    right: 47%;
+    top: 10%;
+  }
+
+  .i {
+    right: 42.2%;
+    top: 10%;
+  }
+
+  .a {
+    right: 36.4%;
+    top: 10%;
+  }
+
+  .s {
+    right: 32%;
+    top: 10%;
+  }
+
+  .d {
+    right: 27.5%;
+    top: 10%;
+  }
+
+  .f {
+    right: 23.4%;
+    top: 10%;
+  }
+
+  .g {
+    right: 19%;
+    top: 10%;
+  }
+
+  .h {
+    right: 14.8%;
+    top: 10%;
+  }
+
+  .j {
+    right: 11.5%;
+    top: 10%;
+  }
+}
