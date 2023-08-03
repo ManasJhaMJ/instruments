@@ -38,7 +38,7 @@
       <div class="navi">
         <nav class="navbar navbar-expand-lg bg-body-tertiary py-lg-0 py-md-2 py-sm-4 navbar-custom">
           <div class="container-fluid">
-            <img class="logo" style="background-color: #AE3A5E; width: 60px; height: 60px;" src="images/logo.png">
+            <img class="logo" style="background-color: #7b2943; width: 60px; height: 60px;" src="images/logo.png">
             <a class="navbar-brand" href="#">E-nstruments</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
               aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -75,7 +75,7 @@
         </nav>
       </div>
 
-      <img class="hero" src="images/main.png" alt="pic">
+      <img class="hero" src="images/main-dark.png" alt="pic">
 
     </div>
   </section>
@@ -85,20 +85,24 @@
     <div class="why-us">
 
       <div class="features">
-        <h1>Why choose <strong style="color: #AE3A5E;">NEWDEVS.MUSIC</strong>?</h1>
-        <div class="row">
+        <div class="row glass">
+          <h1 class="glow">WHY CHOOSE <br><strong>
+              <H1 style="font-weight: 900; font-size: 75px;">E-NSTRUMENTS?</H1>
+            </strong></h1>
+          <img class="eclipse" src="../images/drumset/Eclipse.png" />
+          <img class="eclipse2" src="../images/drumset/Eclipse2.png" />
           <div class="feature-box col-lg-4 col-md-12 col-sm-12">
-            <img src="images/1.png">
+            <img src="images/4.png">
             <h3><br>Easy to use.</h3>
             <h6>Just select any instrument and start playing!</h6>
           </div>
           <div class="feature-box col-lg-4 col-md-12 col-sm-12">
-            <img src="images/3.png">
+            <img src="images/5.png">
             <h3><br>Quality Sound.</h3>
             <h6>Best in class studio quality sound for best experience!</h6>
           </div>
           <div class="feature-box col-lg-4 col-md-12 col-sm-12">
-            <img src="images/2.png">
+            <img src="images/6.png">
             <h3><br>Wide Choice.</h3>
             <h6>We have a wide variety of instruments to choose from!</h6>
           </div>
@@ -108,11 +112,11 @@
 
   </section>
 
-  <section id="instruments">
+  <!--<section id="instruments">
 
     <h1 style="text-align: center; color: white;"><br><strong>Instruments</strong></h1>
 
-    <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
+     <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4">
       <div class="col">
         <div class="col1">
           <a href="./instruments/drum.html"><img src="images/drum.png" class="instrument card-img-top" alt=""></a>
@@ -168,6 +172,92 @@
       </div>
     </div>
 
+  </section> -->
+  <section id="selection">
+    <div class="container">
+      <input type="radio" name="slider" id="item-1" checked>
+      <input type="radio" name="slider" id="item-2">
+      <input type="radio" name="slider" id="item-3">
+      <input type="radio" name="slider" id="item-4">
+      <input type="radio" name="slider" id="item-5">
+      <div class="cards">
+        <label class="card" for="item-1" id="song-1">
+          <img
+            src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80"
+            alt="song">
+        </label>
+        <label class="card" for="item-2" id="song-2">
+          <img
+            src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80"
+            alt="song">
+        </label>
+        <label class="card" for="item-3" id="song-3">
+          <img
+            src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
+            alt="song">
+        </label>
+        <label class="card" for="item-4" id="song-4">
+          <img
+            src="https://images.unsplash.com/photo-1526309789204-a67df3fd3c4c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80"
+            alt="song">
+        </label>
+        <label class="card" for="item-5" id="song-5">
+          <img
+            src="https://images.unsplash.com/photo-1544586784-b9ee32edb3ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80"
+            alt="song">
+      </div>
+      <div class="player">
+        <div class="upper-part">
+          <div class="play-icon">
+            <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round" stroke-linejoin="round"
+              stroke-width="2" class="feather feather-play" viewBox="0 0 24 24">
+              <defs />
+              <path d="M5 3l14 9-14 9V3z" />
+            </svg>
+          </div>
+          <div class="info-area" id="test">
+            <label class="song-info" id="song-info-1">
+              <div class="title">Bunker</div>
+              <div class="sub-line">
+                <div class="subtitle">Balthazar</div>
+                <div class="time">4.05</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-2">
+              <div class="title">Words Remain</div>
+              <div class="sub-line">
+                <div class="subtitle">Moderator</div>
+                <div class="time">4.05</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-3">
+              <div class="title">Falling Out</div>
+              <div class="sub-line">
+                <div class="subtitle">Otzeki</div>
+                <div class="time">4.05</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-4">
+              <div class="title">Song title 4</div>
+              <div class="sub-line">
+                <div class="subtitle">Artist 4</div>
+                <div class="time">2.00</div>
+              </div>
+            </label>
+            <label class="song-info" id="song-info-5">
+              <div class="title">Song title 5</div>
+              <div class="sub-line">
+                <div class="subtitle">Artist 5</div>
+                <div class="time">2.10</div>
+              </div>
+            </label>
+          </div>
+        </div>
+        <div class="progress-bar">
+          <span class="progress"></span>
+        </div>
+      </div>
+    </div>
   </section>
 
 </body>
@@ -175,5 +265,7 @@
 <footer>
   <h6 class="footer">Designed by YS7<br><br>built by MJ10</h6>
 </footer>
+
+<script src="./index.js" charset="utf-8"></script>
 
 </html>
