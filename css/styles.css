@@ -191,6 +191,12 @@ a:active {
   opacity: 0.6;
 }
 
+hr {
+  border: 1px dashed #00c6ff;
+  width: 100%;
+  opacity: 0.7;
+}
+
 .glass {
   background: linear-gradient(
     136deg,
@@ -218,7 +224,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  color: black;
+  color: aqua;
 }
 
 .dropdown:hover .dropdown-content {
@@ -506,9 +512,9 @@ input[type="radio"] {
   border-radius: 1px;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(transparent, #30ff00);
+  background: linear-gradient(transparent, #00c6ff);
   border-radius: 1px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(transparent, #00c6ff);
+  background: linear-gradient(transparent, #95cfec);
 }
