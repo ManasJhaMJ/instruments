@@ -29,9 +29,9 @@
     <div class="main">
       <!-- Nav Bar -->
       <div class="navi">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary py-lg-0 py-md-2 py-sm-4 navbar-custom">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary py-lg-0 py-md-2 py-sm-4 navbar-custom">
           <div class="container-fluid">
-            <img class="logo" style="background-color: #ae3a5e; width: 60px; height: 60px" src="../images/logo.png" />
+            <img class="logo" style="background-color: #141129; width: 60px; height: 60px" src="../images/logo.png" />
             <a class="navbar-brand" href="../index.html">E-nstruments</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
               aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,20 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Instruments</a>
+                  <div class="dropdown">
+                    <span>Instruments</span>
+                    <div class="dropdown-content">
+                      <p><a href="../instruments/guitar.html">Guitar</a></p>
+                      <p><a href="../instruments/drum.html">Drum</a></p>
+                      <p><a href="../instruments/piano.html">Piano</a></p>
+                      <p><a href="../instruments/pan-flute.html">Pan-Flute</a></p>
+                      <p><a href="../instruments/xylophone.html">Xylophone</a></p>
+                      <p>More Coming Soon!</p>
+                    </div>
+                  </div>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">FAQ</a>
@@ -63,7 +73,7 @@
     <div class="play">
       <h1>
         Play <strong>Drums</strong> On
-        <strong style="color: #ae3a5e">E-nstruments</strong>!
+        <strong>E-nstruments</strong>!
       </h1>
       <div class="position-relative glass">
         <img class="responsive-img" src="../images/drumset/main4.png" alt="drum-set" />
@@ -111,7 +121,9 @@
 <script src="./instrument-js/drum.js" charset="utf-8"></script>
 
 <footer>
-  <h6 class="footer">Designed by YS7<br /><br />built by MJ10</h6>
+  <hr>
+  <h6 class="footer">built by <a class="title" href="https://github.com/ManasJhaMJ">MJ10</a><br><br>Designed by <a
+      href="https://github.com/YS7Creates">YS7</a></h6>
 </footer>
 
 </html>

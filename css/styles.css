@@ -30,7 +30,8 @@ a:visited {
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
+  color: #00c6ff;
 }
 
 a:active {
@@ -212,6 +213,7 @@ footer {
   height: 13%;
   text-align: center;
   color: white !important;
+  margin: 20px;
 }
 
 .footer {

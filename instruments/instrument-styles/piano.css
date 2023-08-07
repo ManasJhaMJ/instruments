@@ -31,8 +31,7 @@ body {
 .collapse,
 .container-fluid,
 .bg-body-tertiary {
-  /* background-color: #141129 !important; */
-  background-color: #ae3a5e !important;
+  background-color: #141129 !important;
   color: white;
 }
 
@@ -45,16 +44,26 @@ body {
 
 .navbar-custom {
   display: flex;
-  height: 60px;
+  height: 70px;
   padding: 16px 80px;
   align-items: center;
   flex-shrink: 0;
+  border-bottom-width: 1px;
+  border-color: #00c6ff;
+  border-bottom-style: dashed;
+}
+
+hr {
+  border: 1px dashed #00c6ff;
+  width: 100%;
+  opacity: 0.7;
 }
 
 footer {
-  background-color: #ae3a5e;
+  background-color: #141129;
   height: 13%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .footer {
@@ -323,7 +332,7 @@ footer {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #ae3a5e;
+  background-color: #141129;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   padding: 12px 16px;
