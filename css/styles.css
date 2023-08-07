@@ -172,6 +172,7 @@ a:active {
 .big {
   font-weight: 900;
   font-size: 75px;
+  font-family: "";
 }
 
 .eclipse {
@@ -330,7 +331,11 @@ footer {
 
   .big {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 32px;
+  }
+
+  .glow {
+    font-size: 25px;
   }
 
   .eclipse {

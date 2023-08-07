@@ -344,7 +344,7 @@ footer {
 }
 
 .dropdown-content a:hover {
-  color: black;
+  color: aqua;
 }
 
 .dropdown:hover .dropdown-content {
