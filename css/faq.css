@@ -35,10 +35,9 @@ img {
 
 .navbar-brand,
 .nav-link,
-.collapse,
+.collapse1,
 .container-fluid,
 .bg-body-tertiary {
-  /* background-color: #ae3a5e !important; */
   background-color: #141129 !important;
   color: white;
 }
@@ -60,7 +59,7 @@ img {
   border-bottom-style: dashed;
 }
 
-.collapse {
+.collapse1 {
   margin-left: 22%;
 }
 
@@ -93,11 +92,25 @@ img {
 }
 
 .big {
-  font-size: 70px;
+  font-size: 80px;
   font-family: "against-Regular";
   padding-top: 15px;
   color: #00c6ff;
   text-align: center;
+}
+
+.small {
+  font-size: 25px;
+  font-family: "against-Regular";
+  padding-top: 15px;
+  color: #00c6ff;
+  text-align: center;
+}
+
+#faq {
+  height: auto;
+  margin-top: 8%;
+  padding: 0% 10%;
 }
 
 .eclipse {
@@ -119,11 +132,6 @@ img {
   opacity: 0.6;
 }
 
-#contact {
-  height: auto;
-  margin-top: 8%;
-}
-
 hr {
   border: 1px dashed #00c6ff;
   width: 100%;
@@ -141,40 +149,21 @@ hr {
   padding: 10px 30px 10px 30px;
 }
 
-.card-body {
+.collapse2 {
   background-color: #141129;
   color: #00c6ff;
 }
 
-.card1 {
-  padding: 3% 3% 3% 10%;
+.accordion-button {
   background-color: #141129;
+  color: #00c6ff;
 }
 
-.card2 {
-  padding: 3% 10% 3% 3%;
-  background-color: #141129;
+.accordion-button::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-plus-circle' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z'/></svg>");
 }
-
-.card {
-  border-radius: 35px;
-  border-width: 0px;
-}
-
-.card-title,
-.card-text,
-.card-body {
-  text-align: center;
-}
-
-.icon {
-  height: 12%;
-  width: 12%;
-  margin: 5% 5%;
-}
-
-.icon:hover {
-  opacity: 0.5;
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' class='bi bi-dash-circle' viewBox='0 0 16 16'><path d='M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z'/><path d='M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z'/></svg>");
 }
 
 footer {
@@ -288,16 +277,6 @@ footer {
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     opacity: 0.6;
-  }
-
-  .card1 {
-    padding: 3% 10% 3% 10%;
-    background-color: #141129;
-  }
-
-  .card2 {
-    padding: 3% 10% 3% 10%;
-    background-color: #141129;
   }
 }
 
