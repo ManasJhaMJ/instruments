@@ -332,6 +332,10 @@ footer {
     width: 100%;
   }
 
+  .hero {
+    height: 50%;
+  }
+
   .big {
     font-size: 30px;
   }
