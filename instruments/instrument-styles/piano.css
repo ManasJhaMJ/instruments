@@ -11,8 +11,7 @@ html {
 body {
   overflow-x: hidden;
   background-color: #141129;
-  /* color: #94cfed; */
-  color: aqua;
+  color: #00c6ff;
   box-shadow: -931px 72px 117px 0px #2d9edd80 inset;
   box-shadow: 0px 4px 62px 0px #2d9edd80;
 }
@@ -33,6 +32,12 @@ body {
 .bg-body-tertiary {
   background-color: #141129 !important;
   color: white;
+}
+
+.navbar-brand {
+  font-family: "Midorima - Personal Use Regular";
+  font-style: normal;
+  font-weight: 100;
 }
 
 .navi {
@@ -131,6 +136,20 @@ footer {
   border-radius: 50%;
   z-index: 1;
   font-size: 20px;
+}
+
+.big {
+  font-size: 70px;
+  font-family: "against-Regular";
+  color: #00c6ff;
+  text-align: center;
+}
+
+.small {
+  font-size: 30px;
+  font-family: "against-Regular";
+  color: #00c6ff;
+  text-align: center;
 }
 
 .one {

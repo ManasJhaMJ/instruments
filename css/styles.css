@@ -97,6 +97,12 @@ a:active {
   margin: 0px;
 }
 
+.navbar-brand {
+  font-family: "Midorima - Personal Use Regular";
+  font-style: normal;
+  font-weight: 100;
+}
+
 .navbar-brand,
 .nav-link,
 .collapse,
@@ -333,6 +339,7 @@ footer {
   }
 
   .hero {
+    padding-top: 20%;
     height: 50%;
   }
 

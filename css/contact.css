@@ -43,6 +43,12 @@ img {
   color: white;
 }
 
+.navbar-brand {
+  font-family: "Midorima - Personal Use Regular";
+  font-style: normal;
+  font-weight: 100;
+}
+
 .navi {
   position: fixed;
   width: 100%;
