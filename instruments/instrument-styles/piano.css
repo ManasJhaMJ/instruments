@@ -16,6 +16,13 @@ body {
   box-shadow: 0px 4px 62px 0px #2d9edd80;
 }
 
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
 .main {
   padding: 0px;
   margin: 0px;
@@ -146,7 +153,7 @@ footer {
 }
 
 .small {
-  font-size: 30px;
+  font-size: 35px;
   font-family: "against-Regular";
   color: #00c6ff;
   text-align: center;
@@ -333,7 +340,7 @@ footer {
 }
 
 .info {
-  text-align: left;
+  text-align: center;
   padding: 5% 15% 5% 15%;
   font-size: 20px;
 }
@@ -408,6 +415,25 @@ footer {
     margin-top: 5%;
   }
 }
+
+/* screens between tablets and laptops */
+@media (min-width: 770px) and (max-width: 990px) {
+  .eclipse,
+  .eclipse2 {
+    visibility: hidden;
+  }
+
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    padding-top: 5%;
+  }
+
+  .play {
+    padding: 20px 30px;
+  }
+}
+
 /* screens below tablets */
 @media (max-width: 768px) {
   .logo {
