@@ -268,6 +268,11 @@ footer {
   .play {
     padding: 20px 30px;
   }
+
+  .eclipse,
+  .eclipse2 {
+    visibility: hidden;
+  }
 }
 /* Large laptop screens */
 @media (min-width: 1439px) {
@@ -281,6 +286,25 @@ footer {
     margin-top: 5%;
   }
 }
+
+/* screens between tablets and laptops */
+@media (min-width: 770px) and (max-width: 990px) {
+  .eclipse,
+  .eclipse2 {
+    visibility: hidden;
+  }
+
+  .responsive-img {
+    width: 100%;
+    height: auto;
+    padding-top: 10%;
+  }
+
+  .play {
+    padding: 20px 30px;
+  }
+}
+
 /* screens below tablets */
 @media (max-width: 768px) {
   .logo {
